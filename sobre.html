@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonatas Santos de Oliveira</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .container {
+
+            display: grid;
+        }
+
+        header {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #5170a0;
+        }
+
+        .menu {
+            grid-column-start: 6;
+            grid-column-end: 12;
+            justify-content: center;
+            gap: 20px;
+        }
+
+
+        .img_sobre img {
+            width: 70%;
+
+        }
+
+        .principal {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            color:#5170a0;
+            text-align: justify;
+
+        }
+
+        footer {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #5170a0;
+            color: white;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            color: #5170a0;
+        }
+
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid #5170a0 1px;
+        }
+
+        li {
+            float: left;
+        }
+
+        a:hover {
+            background-color: #5170a0;
+            color: white;
+        }
+
+        /* media query para dispositivos móveis */
+        @media only screen and (max-width: 767px) {
+            .wrapper {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+
+            .img_sobre {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+
+            .principal {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        <h1 style="color: white; text-align: center;">Jonatas Santos de Oliveira</h1>
+        <br>
+
+    </header>
+    <nav class="container menu">
+        <ul>
+            <li><a href="sobre.html">Sobre mim</a></li>
+            <li><a href="formacao.html">Formação educacional</a></li>
+            <li><a href="portifolio.html">Portifolio</a></li>
+            <li><a href="contatos.html">contatos</a></li>
+        </ul>
+    </nav>
+    <div class="container wrapper">
+        <aside class="img_sobre">
+            <img src="img_sobre.jpg" alt="Descrição da imagem" class="imagem-reduzida">
+            
+            <div class="imagem-reduzida">
+                <p><strong>Ocupação:</strong> Estudante</p>
+                <p><strong>RU:</strong> 4957714</p>
+              
+                </p>
+            </div>
+
+        </aside>
+        <section class="principal">
+            <h1>
+                Sobre Jonatas Santos de Oliveira
+            </h1>
+            <p>Olá! Prazer, sou Jonatas Santos de Oliveira, estudante do curso de Tecnologia em Bancos de Dados - EAD. pela UNINTER</p>
+            <p>O presente trabalho tem a premissa a pratica do desenvolvimento de um site portifolio.
+                Formado em economia e profissional do mercado financeiro, busco no curso de Banco de Dados novas ferramentas e soluções complementares para os desafios profissionais, além de possibilitar uma transição de carreira a um setor de constante crescimento. 
+            </p>
+            <p>Com 29 anos, sempre fui apaixonado por tecnologia, cheguei a realizar cursos de desenvolvimento de games mas acabei me encontrando profissionalmente no mercado financeiro.
+                Apesar disso, me esforço para criar soluções inteligentes e que possam melhorar a qualidade do trabalho, eu poderia fazer um simples curso de BI ou algo do genero mas senti que uma nova graduação iria trazer uma visão ampla de projetos, sistemas e agregar ainda mais no dia a dia.
+            </p>
+            Como hobby gosto de jogos, atualmente dedicado em cardgame; pedalar e sair com amigos.
+            </p>
+        </section>
+    </div>
+    <footer class="container">
+        <h1>Trabalho de Fundamentos de Desenvolvimento Web</h1>
+    </footer>
+    </div>
+</body>
+
+</html>
